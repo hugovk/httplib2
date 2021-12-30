@@ -22,6 +22,7 @@ jobs:
           - { py: 3.7, ignore-error: false }
           - { py: 3.8, ignore-error: false }
           - { py: 3.9, ignore-error: false }
+          - { py: 3.11-dev, ignore-error: false }
           - { py: 3.x, ignore-error: true }
           - { py: pypy2, ignore-error: false }
           - { py: pypy3, ignore-error: false }
